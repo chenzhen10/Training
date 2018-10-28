@@ -20,8 +20,7 @@ public class TestTask1 {
 
     @Test
     public void test(){ //придумать как затестить
-        int num = 126345;
-        int res = 6;
-        assertEquals(res,task1.headsOrTails(num));
+        int num = 12;
+        assertNotNull(task1.headsOrTails(num));
     }
 }
